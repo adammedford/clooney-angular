@@ -1,0 +1,19 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../../dist/out-tsc/apps/demo",
+    "types": []
+  },
+  "exclude": [
+    "test.ts",
+    "**/*.spec.ts"
+  ],
+  "include": [
+    "**/*.ts"
+  ],
+  "paths": {
+    "@clooney-angular/clooney-angular": [
+      "libs/clooney-angular/src/index.ts"
+    ]
+  }
+}
